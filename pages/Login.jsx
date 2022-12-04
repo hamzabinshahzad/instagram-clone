@@ -34,7 +34,7 @@ const Login = () => {
           </div>
 
           <div className={loginStyles.right_column_below}>
-            <p id={loginStyles.signup_para}>Don't have an account? <span id={loginStyles.signup_btn}>Sign up</span></p>
+            <p id={loginStyles.signup_para}>{`Don't have an account? `}<span id={loginStyles.signup_btn}>Sign up</span></p>
           </div>
           
           <p className={loginStyles.apps_text}>Get the app.</p>
