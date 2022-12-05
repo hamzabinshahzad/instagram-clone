@@ -90,7 +90,7 @@ const NavHeader = () => {
                   <div className={NavStyles.profile_img}>
                       {/* Profile icon start  */}
                       <div> <span style={{width: '22px', height: '22px', border: '1px solid #fafafa' }}>
-                          <img style={{width: '22px', height: '22px', borderRadius: '100%'}} src="/home/img/default_pfp.png" alt="" />
+                          <img style={{width: '22px', height: '22px', borderRadius: '100%'}} src="/Posts/img/dp.jpg" alt="" />
                       </span>
                       </div>
                       {/* Profile icons ends  */}

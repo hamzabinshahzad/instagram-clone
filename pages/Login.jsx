@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Form, FormGroup, Input, Button } from 'reactstrap';
 import loginStyles from './../styles/Login.module.css';
 
@@ -21,7 +22,9 @@ const Login = () => {
               <FormGroup className={loginStyles.FormGroup}>
                 <Input className={loginStyles.FormControl} type="password" name='' placeholder='Password' />
               </FormGroup>
+              <Link href="/Home">
               <Button id={loginStyles.login_btn} color='primary' block>Log in</Button>
+              </Link>
             </Form>
 
             <p className={loginStyles.or}>OR</p>

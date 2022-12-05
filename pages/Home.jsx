@@ -8,16 +8,18 @@ const Home = () => {
   return (
     <>
       <NavHeader />
-      <div className={`${HomeStyles.container} container`}>
+      {/* <div className={`${HomeStyles.container} container`}>
         <div className="row">
           <div className="col-auto"></div>
-          <div className="col-7" style={{border: "1px solid black"}}>
-            <StoriesBar />
+          <div className="col-7" style={{border: "1px solid black"}}> */}
+            {/* <StoriesBar /> */}
             <Posts />
-          </div>
+            <Posts />
+            <Posts />
+          {/* </div>
           <div className="col-4" style={{border: "1px solid red"}}>3rd</div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
